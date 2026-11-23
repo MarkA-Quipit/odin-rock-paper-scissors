@@ -1,3 +1,6 @@
+let humanScore = 0;
+let computerScore = 0;
+
 // Computer Answer Randomizer 
 function getComputerChoice() {
     let randomChoice = Math.random();

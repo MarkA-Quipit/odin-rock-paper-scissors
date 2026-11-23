@@ -4,7 +4,7 @@ let computerScore = 0;
 
 // Computer Answer Randomizer 
 function getComputerChoice() {
-    let randomChoice = Math.random();
+    let randomChoice = Math.round(Math.random() * 100) / 100;
 
     if (randomChoice > 0 && randomChoice < 0.33) {
         return "rock";

@@ -10,3 +10,9 @@ function getComputerChoice() {
         return "scissors";
     }
 }
+
+// Human Prompted Answer
+function getHumanChoice() {
+    let humanChoice = prompt("Choose between Rock, Paper and Scissors:");
+    return humanChoice.toLowerCase();
+}
